@@ -1,0 +1,119 @@
+/* html, body{
+    font-family: ;
+} */
+#navbarNav{
+    justify-content:end;
+}
+
+#navbarNav a{
+    border-left: 5px solid grey;
+    line-height: 2px;
+}
+.hero{
+    background-image: url("../img/imgBanniere.jpg");
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    background-position: center;
+    /* margin: 0 auto; */
+}
+
+.h2{
+    text-align: center;
+    text-decoration: underline;
+    font-weight:300;
+}
+/* CARDS */
+/* .col{
+    
+} */
+
+.containerCards{
+    display: flex;
+    justify-content: center;
+    /* width: 90%; */
+    margin: auto;
+}
+.card{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+
+}
+.card-title{
+    text-align: center;
+    font-weight: 300;
+}
+.card-text{
+    height: 1rem;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+
+}
+/* .card-body{
+    height: 1.3rem;
+} */
+a {
+    text-decoration: none;
+    color: white;
+
+}
+p{
+    color: black;
+}
+
+/* Collection homme femme */
+.collections{
+    width: 100%;
+    margin: auto;
+}
+.containercollecFemme, .containercollecHomme{
+    text-align: center;
+    margin: auto;
+}
+.containercollecFemme img{
+    width: 100%;
+
+
+}
+
+.containercollecHomme img{
+    width: 100%;
+}
+
+/* footer */
+footer{
+    background-color: grey;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+.topfooter{
+    color: black;
+}
+/* PAGE CONTACT */
+.containerformulaire{
+    width: 80%;
+    margin-left: 10%;
+}
+.h2form{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.containeradresse{
+    width: 80%;
+    margin-left: 10%;
+}
+iframe{
+    width: 100%;
+}
+
+@media screen and (max-width:800px){
+    .navbar-brand{
+        margin: auto;
+    }
+}
